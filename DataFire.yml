@@ -1,8 +1,8 @@
 options:
   cors: true
 actions:
-  greetings: ./actions/greetings.js
+  hello_world: ./hello_world.js
 paths:
   /helloworld:
     get:
-      action: greetings
+      action: hello_world
