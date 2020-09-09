@@ -13,6 +13,6 @@ module.exports = new datafire.Action({
     default: "world"
   }],
   handler: input => {
-    return "Hellot, " + input.name;
+    return "Hellot Ron T, " + input.name;
   },
 });
