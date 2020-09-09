@@ -1,0 +1,8 @@
+options:
+  cors: true
+actions:
+  greetings: ./actions/greetings.js
+paths:
+  /helloworld:
+    get:
+      action: greetings
