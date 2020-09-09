@@ -9,8 +9,8 @@ module.exports = new datafire.Action({
   inputs: [{
     title: "name",
     type: "string",
-    maxLength: 100,
-    default: "world"
+    default: "world",
+    maxLength: 9
   }],
   handler: input => {
     return "Hellot, " + input.name;
